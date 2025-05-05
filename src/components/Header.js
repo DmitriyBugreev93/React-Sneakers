@@ -13,7 +13,7 @@ function Header(props) {
     <header className="header">
     <Link to="/">
       <div className="header__left">
-          <img width={40} height={40} src="/img/logo.png" alt="" />
+          <img width={40} height={40} src="img/logo.png" alt="" />
           <div className="heaedr__info">
             <h3>REACT SNEAKERS</h3>
             <p>
@@ -24,14 +24,14 @@ function Header(props) {
       </Link>
       <ul className="header__right">
         <li onClick={props.onClickCart} className="cu-p">
-          <img src="/img/kor.svg" alt="" />
+          <img src="img/kor.svg" alt="" />
           <span>
             {totalPrice} руб.
           </span>
         </li>
         <li>
           <Link to="/favorites">
-            <img src="/img/zakl.svg" alt="" />
+            <img src="img/zakl.svg" alt="" />
             <span>
               Закладки
             </span>
@@ -39,7 +39,7 @@ function Header(props) {
         </li>
         <li>
         <Link to="/orders">
-          <img src="/img/prof.svg" alt="" />
+          <img src="img/prof.svg" alt="" />
           <span>
             Профиль
           </span>

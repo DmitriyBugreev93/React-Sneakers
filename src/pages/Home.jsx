@@ -42,9 +42,9 @@ function Home({
       <div className="content__top">
         <h1>{searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все кроссовки'}</h1>
         <div className="search-block">
-          <img className="input-img" src="/img/search.svg" alt="search" />
+          <img className="input-img" src="img/search.svg" alt="search" />
           <input onChange={onChangeSearchInput} value={searchValue} placeholder="Поиск..." type="text" />
-          {searchValue && <img onClick={clearInputValue} className="input-close" src="/img/btn-remove.svg" alt="" />}
+          {searchValue && <img onClick={clearInputValue} className="input-close" src="img/btn-remove.svg" alt="" />}
 
         </div>
       </div>
