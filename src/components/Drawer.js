@@ -96,7 +96,7 @@ function Drawer({ onClose, onRemove, items = [], opened }) {
                         <Info
                             title={isOrderComplete ? "Заказ оформлен!" : "Корзина пуста"}
                             description={isOrderComplete ? `Ваш заказ #${orderId} скоро будет передан курьерской доставкой` : "Добавьте хотя бы одну пару кросовок, чтобы сделать заказ"}
-                            image={isOrderComplete ? "/img/complete.svg" : "/img/empty.png"}
+                            image={isOrderComplete ? "img/complete.svg" : "img/empty.png"}
                         />
                     )
                 }
